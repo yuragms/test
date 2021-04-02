@@ -1,5 +1,4 @@
 body {
-  background-color: var(--bg-color);
   color: var(--primary-text-color);
 
   font-family: Montserrat, sans-serif;
@@ -22,4 +21,12 @@ img {
   display: block;
   max-width: 100%;
   height: auto;
+}
+
+.container {
+  max-width: 320px;
+  margin-left: auto;
+  margin-right: auto;
+  padding-left: 20px;
+  padding-right: 20px;
 }
